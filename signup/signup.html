@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="signup.css">
+    <title>Signup</title>
+</head>
+
+<body>
+    <div class="container mt-5 p-5">
+        <h1 class="text-center mt-2">Signup Form</h1>
+        <div class="btnDiv mt-4">
+            <div class="loginBtnDiv">
+                <a href="../login/login.html"><button>Login</button></a>
+            </div>
+            <div class="signbtnDiv">
+                <a href="#" id="signupBtnDiv"><button>Signup</button></a>
+            </div>
+        </div>
+        <input type="email" id="signupEmail" placeholder="Email Address" class="form-control mt-3">
+        <input type="password" id="signupPassword" placeholder="Password" class="form-control mt-3">
+        
+        <button onclick="signup()" class="mt-4 btn btn-primary">Signup</button>
+        <a href="../login/login.html"><button>Login</button></a>
+        
+    </div>
+
+
+    <script src="signup.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

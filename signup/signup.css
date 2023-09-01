@@ -1,0 +1,53 @@
+body {
+    overflow-x: hidden;
+    background-color: #003981;
+}
+
+.container {
+    background-color: white;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 3%;
+    border: none;
+}
+
+.btn {
+    background-color: #003981;
+    border-radius: 0.8vw !important;
+    height: 6vh;
+    font-size: larger;
+    letter-spacing: 1px;
+}
+
+.btnDiv button {
+    border: none;
+}
+
+.btnDiv {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 0.5vw;
+}
+
+.btnDiv a {
+    width: 20vw;
+}
+
+.btnDiv #signupBtnDiv button {
+    background-color: #003981 !important;
+    color: white;
+}
+
+.signbtnDiv {
+    background-color: #003981;
+    display: block;
+    text-align: center;
+    width: 16vw;
+}
+
+.loginBtnDiv {
+    width: 16vw;
+    text-align: center;
+}
