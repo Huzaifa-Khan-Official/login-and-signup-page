@@ -5,7 +5,7 @@ if (currentUser === "") {
 }
 
 var greet = document.querySelector(".greet");
-greet.innerHTML = `Welcome ${currentUser.email}`;
+greet.innerHTML = `<h1>Welcome ${currentUser.email}</h1>`;
 
 function logout() {
     localStorage.removeItem("currentUser");

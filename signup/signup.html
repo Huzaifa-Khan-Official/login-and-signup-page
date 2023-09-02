@@ -9,23 +9,29 @@
     <title>Signup</title>
 </head>
 
-<body>
-    <div class="container mt-5 p-5">
+<body class="p-2">
+    <div class="container mt-5 p-2">
         <h1 class="text-center mt-2">Signup Form</h1>
+
         <div class="btnDiv mt-4">
-            <div class="loginBtnDiv">
-                <a href="../login/login.html"><button>Login</button></a>
-            </div>
-            <div class="signbtnDiv">
-                <a href="#" id="signupBtnDiv"><button>Signup</button></a>
+            <div class="row">
+                <div class="col-sm-6 col-12 loginBtnDiv" onclick="gotologin()">
+                    <a href="../login/login.html">
+                        <button>Login</button>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-12 signbtnDiv">
+                    <a href="#" id="signupBtnDiv">
+                        <button>Signup</button>
+                    </a>
+                </div>
             </div>
         </div>
         <input type="email" id="signupEmail" placeholder="Email Address" class="form-control mt-3">
         <input type="password" id="signupPassword" placeholder="Password" class="form-control mt-3">
-        
-        <button onclick="signup()" class="mt-4 btn btn-primary">Signup</button>
-        <a href="../login/login.html"><button>Login</button></a>
-        
+
+        <button onclick="signup()" class="mt-4 btn btn-primary mb-5 signupBtn">Signup</button>
+
     </div>
 
 

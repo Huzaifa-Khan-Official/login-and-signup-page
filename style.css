@@ -1,0 +1,26 @@
+body {
+    background-color: #003981;
+    padding: 5vw;
+}
+
+.container {
+    background-color: white;
+}
+
+.loginBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-wrap: break-word;
+}
+
+.btn {
+    background-color: #003981;
+    border-radius: 0.8vw !important;
+    height: 6vh;
+    font-size: larger;
+    letter-spacing: 1px;
+}
+.greet h1 {
+    word-wrap: break-word;
+}
